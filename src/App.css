@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.country {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: left;
+}
+
+.country img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
