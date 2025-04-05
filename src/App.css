@@ -19,11 +19,6 @@ button {
   cursor: pointer;
 }
 
-.results {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-}
 
 .country {
   border: 1px solid #ddd;

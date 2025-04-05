@@ -1,0 +1,55 @@
+.country-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin: 10px 0;
+    padding: 16px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.country-card:hover {
+    background-color: #f1f1f1;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.flag {
+    width: 60px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.country-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.population {
+    margin-left: auto;
+    font-weight: 500;
+}
+
+.additional-info {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #ccc;
+}
+
+.info-row {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.info-row ul {
+    padding-left: 20px;
+    list-style-type: none;
+}
